@@ -1,6 +1,6 @@
 ﻿using CleaningSchedule.Ai.Providers.Abstractions;
 
-namespace Moving.Ai.Providers
+namespace CleaningSchedule.Ai.Providers
 {
     public class FilePromptProvider : IPromptProvider
     {

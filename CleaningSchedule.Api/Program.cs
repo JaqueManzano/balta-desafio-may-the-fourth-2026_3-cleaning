@@ -37,7 +37,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
-        options.SwaggerEndpoint("/swagger/v1/swagger.json", "Moving API v1");
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "Cleaning Schedule API v1");
         options.RoutePrefix = "swagger";
     });
 }
